@@ -460,13 +460,7 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "www.mlkj888.com:443,#HK 移动优选[www.mlkj888.com 109ms]
-cf.qq.ms:443,#HK 移动优选[cf.qq.ms 111ms]
-idc.urkeji.com:443,#HK 移动优选[idc.urkeji.com 112ms]
-101yaoye.com:443,#HK 移动优选[101yaoye.com 114ms]
-saas.sin.fan:443,#HK 移动优选[saas.sin.fan 119ms]
-kniu.cc:443,#HK 移动优选[kniu.cc 119ms]
-auto.dolby.dpdns.org:443,#HK 移动优选[auto.dolby.dpdns.org 121ms]",
+        "cf.cname.vvhan.com:443",
     ).split(",")
     if h.strip()
 ]
